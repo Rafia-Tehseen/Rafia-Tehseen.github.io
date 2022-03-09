@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat://fonts.google.com/specimen/Montserrat#standard-styles);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(228, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px ;
+    background-color: white;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+
+}
+.container .left-side{
+    position: relative;
+    background-color: #ffca05;
+    padding: 40px;
+}
+.container .right-side{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(92, 92, 91);
+
+}
+.profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    color: black;
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+.contactInfo{
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(92, 92, 91);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul{
+    position:relative;
+    list-style: none ;
+}
+.contactInfo ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px o;
+    cursor:pointer;
+}
+.contactInfo ul li .icon{
+    list-style: none;
+    display: inline-block;
+    width:30px;
+    font-size: 18px;
+    color: rgb(92, 92, 91);
+}
+.contactInfo ul li span{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 10px;
+}
+.About{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(92, 92, 91);
+}
+.Education{
+    padding-top: 10px;
+}
+.title2{
+    font-size: 30px;
+    font-weight: 500px;
+    color: #ffca05;
+}
+.Education ul{
+    list-style: none;
+}
+.Education ul li{
+    padding-top: 20px;
+    line-height: 40px;
+}
+.degree{
+    font-weight: 400px;
+}
+.year{
+  background-color: #ffca05;
+  padding: 5px;
+  border-radius: 10px;
+}
+.skill{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-color: #2b3036;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 100%;
+    float: right;
+}
+.skill ul li{
+    font-size: 20px;
+    list-style:none;
+    line-height: 50px;
+}
+.s-name{
+    color: white;
+}
+.l-name{
+        color: #ffca05;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .language ul li{
+      list-style: none;
+  }
+  .lan{
+    font-size: 20px;
+    list-style:none;
+    line-height: 30px;
+    font-weight: 500px;
+  }
